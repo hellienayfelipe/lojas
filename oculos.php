@@ -1,8 +1,12 @@
+<?php
+include "includes/cabecalho.php";
+include "includes/banner.php";
 
+?>
     <div class="categorias">
         <h2 class="titulo">ÓCULOS</h2>
     </div>
-
+ 
     <div class="produtos">
         <h2 class="titulo">Produtos que estão bombando!</h2>
         <div class="lista-produtos">
@@ -51,3 +55,8 @@
            
         </div>
     </div>
+    <?PHP
+include "includes/facilidades.php";
+include "includes/newsletter.php";
+include "includes/rodape.php"
+?>
